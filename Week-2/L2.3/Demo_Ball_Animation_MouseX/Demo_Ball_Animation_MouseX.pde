@@ -5,11 +5,10 @@ void setup() {
   frameRate(60);
 }
 
-int y = 0;
 // Code that repeats over and over
 void draw() {
   // Draw a frame
   background(100);
-  y = y + 20;
-  ellipse(100, y, 50, 50);
+  ellipse(mouseX, mouseY, 50, 50);
+  println(mouseY);
 }
