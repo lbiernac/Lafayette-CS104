@@ -9,6 +9,8 @@ void draw() {
   circle(x, y, 50);
 }
 
+// Use the auto-formatter  (Ctrl+T)
+// to find the missing }'s in this code
 void keyPressed() {
   if (keyCode = UP) {
     y--;
